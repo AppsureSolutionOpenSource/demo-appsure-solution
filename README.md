@@ -46,8 +46,11 @@ Encrypts a user-input string to a hex encoded string. Encryption uses custom pin
 ### [AES DECRYPRT]
 Decrypts a user-input hex string to a regular string. Decryption uses custom pin derivation in order to obtain key and iv. Aes mode is CBC, padding is PKCS5. 
 ### [BIOMETRIC ENCRYPTION]
-* [CHANGE BUTTON COLOR]
+Validates user presence, exposing callbacks in order to make things simpler.
+### [CHANGE BUTTON COLOR]
+Changes button color at runtime.
 
 ## FUTURE ENHANCEMENTS
 ToDo: Add more validations.
 ToDo: Test on multiple devices.
+ToDo: Better structure.
