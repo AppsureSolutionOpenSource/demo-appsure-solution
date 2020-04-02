@@ -40,12 +40,12 @@ Encodes a user-input string to a base64 string.
 (App also copies the result into Clipboard, in order to facilitate decoding operations).
 ### [BASE64 DECODE]
 Decodes a user-input string to a regular string.
-### [AES ENCRYPRT]
+### [AES ENCRYPT]
 Encrypts a user-input string to a hex encoded string. Encryption uses custom pin derivation in order to obtain key and iv. Aes mode is CBC, padding is PKCS5. 
 (App also copies the result into Clipboard, in order to facilitate decryption operations).
-### [AES DECRYPRT]
+### [AES DECRYPT]
 Decrypts a user-input hex string to a regular string. Decryption uses custom pin derivation in order to obtain key and iv. Aes mode is CBC, padding is PKCS5. 
-### [BIOMETRIC ENCRYPTION]
+### [BIOMETRIC AUTHENTICATION]
 Validates user presence, exposing callbacks in order to make things simpler.
 ### [CHANGE BUTTON COLOR]
 Changes button color at runtime.
