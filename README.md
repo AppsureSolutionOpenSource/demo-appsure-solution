@@ -51,7 +51,7 @@ Validates user presence, exposing callbacks in order to make things simpler.
 Changes button color at runtime.
 
 ## FUTURE ENHANCEMENTS
-ToDo: Add more validations.
-ToDo: Test on multiple devices.
-ToDo: Better docs structure.
-ToDo: Better code structure
+* ToDo: Add more validations.
+* ToDo: Test on multiple devices.
+* ToDo: Better docs structure.
+* ToDo: Better code structure
