@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tests">
+        <item>Rest (GET)</item>
+        <item>Rest (POST)</item>
+        <item>List files</item>
+        <item>Save string to file</item>
+        <item>Load string from file</item>
+        <item>Base 64 encode</item>
+        <item>Base 64 decode</item>
+        <item>Aes encrypt</item>
+        <item>Aes decrypt</item>
+        <item>Root checker</item>
+        <item>Change button color</item>
+        <item>Biometric authentication</item>
+    </string-array>
+</resources>

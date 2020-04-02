@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Demo appsure-solution.com</string>
+    <string name="i18n_run_test">Choose demo to run</string>
+    <string name="i18n_cancel">Cancel</string>
+    <string name="i18n_initial_description">This is a demo app meant to showcase some functionality, like web service interaction, string encoding, encryption, file operations and biometric interaction.</string>
+</resources>

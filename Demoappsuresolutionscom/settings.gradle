@@ -1,0 +1,3 @@
+rootProject.name='Demo appsure-solutions.com'
+include ':app'
+include ':utils'
