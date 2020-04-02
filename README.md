@@ -6,9 +6,10 @@ Simple demo app, showcasing various Android method calls.
 * [OBFUSCATION](#obfuscation)
 * [TESTING](#testig)
 * [LIBRARY METHODS](#library-methods)
+* [FUTURE ENHANCEMENTS](#future-enhancements)
 
 ## TECHOLOGIES
-This project was developed using Android Studio.
+This project was developed using Android Studio and obfuscated using ProGuard.
 
 ## PROJECT STRUCTURE
 The application consist of two modules, *app* and *util*.
@@ -20,15 +21,33 @@ The library was obfuscated, in order to make code harder to reverse engineer. Al
 
 ## TESTING
 The library was tested using both JUNIT (the Aes encryption functions) and AndroidUnit (web service calls, file operations).
+Almost each library function comes in two flavors, one synchronous and one asynchronous. Unit tests call only the synchronous functions, and the application calls mostly the asynchronous calls.
 
 ## LIBRARY METHODS
-### [REST/GET]
-* [REST/POST](#rest-post)
-* [LIST FILES](#list-file)
-* [SAVE STRING TO FILE](#save-string-to-file)
-* [LOAD STRINGS FROM FILE](#load-string-from-file)
-* [BASE64 ENCODE](#base64-encode)
-* [BASE64 DECODE](#base64-decode)
-* [AES ENCRYPRT](#aes-encrypt-hex-encode)
-* [AES DECRYPRT](#aes-encrypt-hex-decode)
 
+### [REST/GET]
+Consumes data from https://dummy.restapiexample.com/employees . 
+### [REST/POST]
+Creates new entries using https://dummy.restapiexample.com/create .
+### [LIST FILES]
+List files from a hardcoded directory.
+### [SAVE STRING TO FILE]
+Save a string to a file in a predefined location.
+### [LOAD STRINGS FROM FILE]
+Load a string from a file in a predefined location.
+### [BASE64 ENCODE]
+Encodes a user-input string to a base64 string.
+(App also copies the result into Clipboard, in order to facilitate decoding operations).
+### [BASE64 DECODE]
+Decodes a user-input string to a regular string.
+### [AES ENCRYPRT]
+Encrypts a user-input string to a hex encoded string. Encryption uses custom pin derivation in order to obtain key and iv. Aes mode is CBC, padding is PKCS5. 
+(App also copies the result into Clipboard, in order to facilitate decryption operations).
+### [AES DECRYPRT]
+Decrypts a user-input hex string to a regular string. Decryption uses custom pin derivation in order to obtain key and iv. Aes mode is CBC, padding is PKCS5. 
+### [BIOMETRIC ENCRYPTION]
+* [CHANGE BUTTON COLOR]
+
+## FUTURE ENHANCEMENTS
+ToDo: Add more validations.
+ToDo: Test on multiple devices.
