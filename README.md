@@ -7,7 +7,15 @@ Simple demo app, showcasing various Android method calls.
 * [TESTING](#testig)
 * [LIBRARY METHODS](#library-methods)
 
-##LIBRARY METHODS
+## TECHOLOGIES
+This project was developed using Android Studio.
+
+## PROJECT STRUCTURE
+The application consist of two modules, *app* and *util*.
+Module *app* is the Android Application, and *util* is the referenced library.
+Module *util* exposes calls through the LibraryFacade class, wich is located in the package *com.appsuresolutions.utils.entrypoint*.
+
+## LIBRARY METHODS
 * [REST/GET](#rest-get)
 * [REST/POST](#rest-post)
 * [LIST FILES](#list-file)
