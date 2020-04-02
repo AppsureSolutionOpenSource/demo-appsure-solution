@@ -53,4 +53,5 @@ Changes button color at runtime.
 ## FUTURE ENHANCEMENTS
 ToDo: Add more validations.
 ToDo: Test on multiple devices.
-ToDo: Better structure.
+ToDo: Better docs structure.
+ToDo: Better code structure
